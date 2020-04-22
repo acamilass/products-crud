@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    &__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    &__logo {
+        height: 32px;
+    }
+
+    &__title {
+        padding-left: 25px;
+
+        i {
+            padding-right: 5px;
+        }
+    }
+}
